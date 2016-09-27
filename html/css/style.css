@@ -6,9 +6,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     height: 100%;
 }
+
 body {
     font-family: 'Arial', serif;
     background: #f5e0b3;
@@ -26,10 +28,43 @@ h1 {
     margin: 0 0 30px;
     padding: 0 0 10px;
 }
+
 h2 {
     font-size: 23px;
     font-weight: normal;
     margin: 0 0 20px;
+}
+
+.sb_order {
+    background: #49BCAB !important;
+}
+
+.sb_purchase {
+    background: #FE491A !important;
+}
+
+.sb_payment {
+    background: #A1C436 !important;
+}
+
+.sb_reports {
+    background: #F9A5A1 !important;
+}
+
+.sb_customer {
+    background: #CE534D !important;
+}
+
+.sb_product {
+    background: #F7B733 !important;
+}
+
+.sb_supplier {
+    background: #A4A875 !important;
+}
+
+.sb_user {
+    background: #6FB7E9 !important;
 }
 
 /* ====================== */
@@ -43,6 +78,7 @@ input[type=password] {
     padding: 10px;
     outline: none;
 }
+
 input[type=submit] {
     background: #000;
     color: #fff;
@@ -55,7 +91,6 @@ input[type=submit] {
     outline: 0;
 }
 
-
 /* ====================== */
 /*          LOGIN         */
 /* ====================== */
@@ -67,13 +102,14 @@ input[type=submit] {
     left: 50%;
     margin: -120px 0 0 -115px;
 }
+
 #sb_login input[type=password] {
     margin: -1px 0 0;
 }
+
 #sb_login input[type=submit] {
     margin: 10px 0 0;
 }
-
 
 /* ====================== */
 /*         HEADER         */
@@ -86,11 +122,13 @@ input[type=submit] {
     left: 0;
     width: 100%;
 }
+
 #sb_header h1 {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 #sb_header h1 a {
     color: #fff;
     text-decoration: none;
@@ -99,6 +137,7 @@ input[type=submit] {
     line-height: 70px;
     padding: 0 0 0 45px;
 }
+
 .sb_logout {
     float: right;
     color: #fff;
@@ -106,10 +145,10 @@ input[type=submit] {
     font-size: 35px;
     margin: 16px 0 0;
 }
+
 .sb_logout:hover {
     color: #f0ad5d;
 }
-
 
 /* ====================== */
 /*        SIDEBAR         */
@@ -119,11 +158,14 @@ input[type=submit] {
     float: left;
     padding: 70px 0 0;
 }
+
 #sb_sidebar ul {
     list-style: none;
 }
+
 #sb_sidebar ul li {
 }
+
 #sb_sidebar ul li a {
     color: #000;
     text-decoration: none;
@@ -132,15 +174,16 @@ input[type=submit] {
     padding: 0 20px;
     border-bottom: #f0ad5d 1px solid;
 }
+
 #sb_sidebar ul li a:hover,
 #sb_sidebar ul li.active a {
     background: #f0ad5d;
     color: #fff;
 }
+
 #sb_sidebar ul li a i {
     margin: 0 5px 0 0;
 }
-
 
 /* ====================== */
 /*        CONTENT         */
@@ -152,6 +195,33 @@ input[type=submit] {
     min-height: 100%;
     padding: 70px 0 0;
 }
+
 .inner {
     padding: 25px 30px;
+}
+
+#sb_content .sb_pages {
+    padding-left: 20px;
+}
+
+#sb_content .sb_pages button {
+    background: none;
+    border: none;
+}
+
+#sb_content .sb_pages button a {
+    background: #808080;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    padding: 24px 60px;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 0 20px 25px 10px;
+    cursor: pointer;
+    display: block;
+}
+
+#sb_content .sb_pages button a:hover {
+    background: #a6a6a6;
 }
