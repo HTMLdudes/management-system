@@ -36,15 +36,15 @@ h2 {
 }
 
 .sb_order {
-    background: #49BCAB !important;
+    background: #FEDCD2 !important;
 }
 
 .sb_purchase {
-    background: #FE491A !important;
+    background: #96858D !important;
 }
 
 .sb_payment {
-    background: #A1C436 !important;
+    background: #E6C973 !important;
 }
 
 .sb_reports {
@@ -52,19 +52,19 @@ h2 {
 }
 
 .sb_customer {
-    background: #CE534D !important;
+    background: #C1A081 !important;
 }
 
 .sb_product {
-    background: #F7B733 !important;
+    background: #6E7A94 !important;
 }
 
 .sb_supplier {
-    background: #A4A875 !important;
+    background: #72C29B !important;
 }
 
 .sb_user {
-    background: #6FB7E9 !important;
+    background: #B4B0E3 !important;
 }
 
 /* ====================== */
@@ -201,7 +201,7 @@ input[type=submit] {
 }
 
 #sb_content .sb_pages {
-    padding-left: 20px;
+    padding-left: 16px;
 }
 
 #sb_content .sb_pages button {
@@ -209,19 +209,20 @@ input[type=submit] {
     border: none;
 }
 
-#sb_content .sb_pages button a {
+#sb_content .sb_pages button {
     background: #808080;
+    width: 258px;
     text-decoration: none;
     color: #ffffff;
     border: none;
-    padding: 24px 60px;
+    padding: 34px 0;
     font-size: 24px;
     text-transform: capitalize;
-    margin: 0 20px 25px 10px;
+    margin: 0 20px 30px 10px;
     cursor: pointer;
-    display: block;
+    display: inline-block;
 }
 
-#sb_content .sb_pages button a:hover {
-    background: #a6a6a6;
+#sb_content .sb_pages button i {
+    font-size: 40px;
 }
